@@ -4,42 +4,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fafafa;
     height: 100vh;
-    font-family: Arial, sans-serif;
-}
-
-#game-container {
-    position: relative;
+    background-color: #f0f0f0;
 }
 
 canvas {
-    border: 2px solid #333;
-    display: block;
-}
-
-#game-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-}
-
-#startBtn {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #28a745;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#startBtn:hover {
-    background-color: #218838;
+    border: 2px solid black;
+    background-color: white;
 }
